@@ -7,7 +7,7 @@ class Player
     puts "0：グー\n1：チョキ\n2：パー"
    input_hand = gets.to_i
     while true
-      if input_hand <= 2
+      if  <= input_hand && input_hand <= 2
         return input_hand
       else
         puts "もう一度数字を入力してください。"
